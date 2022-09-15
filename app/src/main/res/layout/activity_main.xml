@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:inputType="text"
+                android:maxLines="1"
+                android:id="@+id/join_roomID_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/bg_txt"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:hint="Enter your room id here..."
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/roomid_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="30dp"
+                android:background="@drawable/bg_txt"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/button_createRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Room ID"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:paddingVertical="5dp"
+                android:textSize="25dp"
+                android:layout_marginBottom="10dp"
+                android:paddingHorizontal="10dp"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="50dp"
+                    android:text="Give yourself a name"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="50dp"
+                    android:background="@drawable/bg_txt"
+                    android:gravity="center"
+                    android:textSize="30dp"
+                    android:hint="here......"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/btn_createGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="40dp"
+                    android:background="@color/black"
+                    android:textColor="@color/white"
+                    android:paddingVertical="5dp"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingHorizontal="10dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

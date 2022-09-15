@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "898668931926",
+    "project_id": "tick-tak-tum",
+    "storage_bucket": "tick-tak-tum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898668931926:android:46b04da8aec8fb178f84f7",
+        "android_client_info": {
+          "package_name": "com.example.ticktaktum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898668931926-qbql4p24h5medne88htcb7demp6gl7n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Zpl8aXRhmXTpapn5r1zeQc1ne4tg5gM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898668931926-qbql4p24h5medne88htcb7demp6gl7n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
